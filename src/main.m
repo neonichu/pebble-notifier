@@ -6,10 +6,12 @@
 //  Copyright (c) 2013 Boris Bügling. All rights reserved.
 //
 
-#include <CoreFoundation/CoreFoundation.h>
+#import "NotificationCenterObserver.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    CFShow(CFSTR("Hello, World!\n"));
+    NotificationCenterObserver* observer = [NotificationCenterObserver new];
+    [observer startObserving];
+    
+    [[NSRunLoop currentRunLoop] run];
     return 0;
 }

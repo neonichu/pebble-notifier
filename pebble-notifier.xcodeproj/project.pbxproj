@@ -22,6 +22,7 @@
 		8693898C1718A20200B4EA7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693898B1718A20200B4EA7B /* Cocoa.framework */; };
 		869389901718A34400B4EA7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693898F1718A34400B4EA7B /* Foundation.framework */; };
 		869389921718A3AF00B4EA7B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 869389911718A3AF00B4EA7B /* libsqlite3.dylib */; };
+		869389951718A48900B4EA7B /* NotificationCenterObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389941718A48900B4EA7B /* NotificationCenterObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,8 @@
 		8693898E1718A2A800B4EA7B /* PebbleNotifier.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PebbleNotifier.pch; sourceTree = "<group>"; };
 		8693898F1718A34400B4EA7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		869389911718A3AF00B4EA7B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		869389931718A48900B4EA7B /* NotificationCenterObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterObserver.h; sourceTree = "<group>"; };
+		869389941718A48900B4EA7B /* NotificationCenterObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +94,6 @@
 			children = (
 				8693895C1718A0B800B4EA7B /* pebble-notifier */,
 				869389591718A0B800B4EA7B /* Frameworks */,
-				869389911718A3AF00B4EA7B /* libsqlite3.dylib */,
 				869389581718A0B800B4EA7B /* Products */,
 				869389661718A16900B4EA7B /* Third Party */,
 			);
@@ -111,6 +113,7 @@
 				8693898B1718A20200B4EA7B /* Cocoa.framework */,
 				8693895A1718A0B800B4EA7B /* CoreFoundation.framework */,
 				8693898F1718A34400B4EA7B /* Foundation.framework */,
+				869389911718A3AF00B4EA7B /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				8693895D1718A0B800B4EA7B /* main.m */,
+				869389931718A48900B4EA7B /* NotificationCenterObserver.h */,
+				869389941718A48900B4EA7B /* NotificationCenterObserver.m */,
 				8693898E1718A2A800B4EA7B /* PebbleNotifier.pch */,
 				8693898D1718A22A00B4EA7B /* TSAppDelegate.h */,
 			);
@@ -235,6 +240,7 @@
 				869389881718A1BA00B4EA7B /* FMDatabasePool.m in Sources */,
 				869389891718A1BA00B4EA7B /* FMDatabaseQueue.m in Sources */,
 				8693898A1718A1BA00B4EA7B /* FMResultSet.m in Sources */,
+				869389951718A48900B4EA7B /* NotificationCenterObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +272,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -295,6 +302,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = src/PebbleNotifier.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
