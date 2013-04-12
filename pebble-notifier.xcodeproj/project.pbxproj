@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8693895B1718A0B800B4EA7B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693895A1718A0B800B4EA7B /* CoreFoundation.framework */; };
+		8693895E1718A0B800B4EA7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693895D1718A0B800B4EA7B /* main.m */; };
+		869389761718A19C00B4EA7B /* TSAppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389691718A19C00B4EA7B /* TSAppRecord.m */; };
+		869389771718A19C00B4EA7B /* TSDBConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693896B1718A19C00B4EA7B /* TSDBConnector.m */; };
+		869389781718A19C00B4EA7B /* TSDBMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693896E1718A19C00B4EA7B /* TSDBMonitorController.m */; };
+		869389791718A19C00B4EA7B /* TSNCMetaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389711718A19C00B4EA7B /* TSNCMetaController.m */; };
+		8693897A1718A19C00B4EA7B /* TSWindowMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389741718A19C00B4EA7B /* TSWindowMonitorController.m */; };
+		869389861718A1BA00B4EA7B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693897D1718A1BA00B4EA7B /* FMDatabase.m */; };
+		869389871718A1BA00B4EA7B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693897F1718A1BA00B4EA7B /* FMDatabaseAdditions.m */; };
+		869389881718A1BA00B4EA7B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389811718A1BA00B4EA7B /* FMDatabasePool.m */; };
+		869389891718A1BA00B4EA7B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389831718A1BA00B4EA7B /* FMDatabaseQueue.m */; };
+		8693898A1718A1BA00B4EA7B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 869389851718A1BA00B4EA7B /* FMResultSet.m */; };
+		8693898C1718A20200B4EA7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693898B1718A20200B4EA7B /* Cocoa.framework */; };
+		869389901718A34400B4EA7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693898F1718A34400B4EA7B /* Foundation.framework */; };
+		869389921718A3AF00B4EA7B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 869389911718A3AF00B4EA7B /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		869389551718A0B800B4EA7B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		869389571718A0B800B4EA7B /* pebble-notifier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pebble-notifier"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8693895A1718A0B800B4EA7B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8693895D1718A0B800B4EA7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		869389681718A19C00B4EA7B /* TSAppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAppRecord.h; path = vendor/ncMeta/TSAppRecord.h; sourceTree = "<group>"; };
+		869389691718A19C00B4EA7B /* TSAppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSAppRecord.m; path = vendor/ncMeta/TSAppRecord.m; sourceTree = "<group>"; };
+		8693896A1718A19C00B4EA7B /* TSDBConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSDBConnector.h; path = vendor/ncMeta/TSDBConnector.h; sourceTree = "<group>"; };
+		8693896B1718A19C00B4EA7B /* TSDBConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSDBConnector.m; path = vendor/ncMeta/TSDBConnector.m; sourceTree = "<group>"; };
+		8693896C1718A19C00B4EA7B /* TSDBConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSDBConnectorDelegate.h; path = vendor/ncMeta/TSDBConnectorDelegate.h; sourceTree = "<group>"; };
+		8693896D1718A19C00B4EA7B /* TSDBMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSDBMonitorController.h; path = vendor/ncMeta/TSDBMonitorController.h; sourceTree = "<group>"; };
+		8693896E1718A19C00B4EA7B /* TSDBMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSDBMonitorController.m; path = vendor/ncMeta/TSDBMonitorController.m; sourceTree = "<group>"; };
+		8693896F1718A19C00B4EA7B /* TSDBMonitorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSDBMonitorDelegate.h; path = vendor/ncMeta/TSDBMonitorDelegate.h; sourceTree = "<group>"; };
+		869389701718A19C00B4EA7B /* TSNCMetaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNCMetaController.h; path = vendor/ncMeta/TSNCMetaController.h; sourceTree = "<group>"; };
+		869389711718A19C00B4EA7B /* TSNCMetaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNCMetaController.m; path = vendor/ncMeta/TSNCMetaController.m; sourceTree = "<group>"; };
+		869389721718A19C00B4EA7B /* TSNCMetaControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNCMetaControllerDelegate.h; path = vendor/ncMeta/TSNCMetaControllerDelegate.h; sourceTree = "<group>"; };
+		869389731718A19C00B4EA7B /* TSWindowMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSWindowMonitorController.h; path = vendor/ncMeta/TSWindowMonitorController.h; sourceTree = "<group>"; };
+		869389741718A19C00B4EA7B /* TSWindowMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSWindowMonitorController.m; path = vendor/ncMeta/TSWindowMonitorController.m; sourceTree = "<group>"; };
+		869389751718A19C00B4EA7B /* TSWindowMonitorControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSWindowMonitorControllerDelegate.h; path = vendor/ncMeta/TSWindowMonitorControllerDelegate.h; sourceTree = "<group>"; };
+		8693897C1718A1BA00B4EA7B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabase.h"; sourceTree = "<group>"; };
+		8693897D1718A1BA00B4EA7B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabase.m"; sourceTree = "<group>"; };
+		8693897E1718A1BA00B4EA7B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		8693897F1718A1BA00B4EA7B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		869389801718A1BA00B4EA7B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabasePool.h"; sourceTree = "<group>"; };
+		869389811718A1BA00B4EA7B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabasePool.m"; sourceTree = "<group>"; };
+		869389821718A1BA00B4EA7B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		869389831718A1BA00B4EA7B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "vendor/ncMeta/ncMeta App/ncMeta/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		869389841718A1BA00B4EA7B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "vendor/ncMeta/ncMeta App/ncMeta/FMResultSet.h"; sourceTree = "<group>"; };
+		869389851718A1BA00B4EA7B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "vendor/ncMeta/ncMeta App/ncMeta/FMResultSet.m"; sourceTree = "<group>"; };
+		8693898B1718A20200B4EA7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8693898D1718A22A00B4EA7B /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		8693898E1718A2A800B4EA7B /* PebbleNotifier.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PebbleNotifier.pch; sourceTree = "<group>"; };
+		8693898F1718A34400B4EA7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		869389911718A3AF00B4EA7B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869389541718A0B800B4EA7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869389921718A3AF00B4EA7B /* libsqlite3.dylib in Frameworks */,
+				869389901718A34400B4EA7B /* Foundation.framework in Frameworks */,
+				8693898C1718A20200B4EA7B /* Cocoa.framework in Frameworks */,
+				8693895B1718A0B800B4EA7B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8693894E1718A0B800B4EA7B = {
+			isa = PBXGroup;
+			children = (
+				8693895C1718A0B800B4EA7B /* pebble-notifier */,
+				869389591718A0B800B4EA7B /* Frameworks */,
+				869389911718A3AF00B4EA7B /* libsqlite3.dylib */,
+				869389581718A0B800B4EA7B /* Products */,
+				869389661718A16900B4EA7B /* Third Party */,
+			);
+			sourceTree = "<group>";
+		};
+		869389581718A0B800B4EA7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869389571718A0B800B4EA7B /* pebble-notifier */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869389591718A0B800B4EA7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8693898B1718A20200B4EA7B /* Cocoa.framework */,
+				8693895A1718A0B800B4EA7B /* CoreFoundation.framework */,
+				8693898F1718A34400B4EA7B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8693895C1718A0B800B4EA7B /* pebble-notifier */ = {
+			isa = PBXGroup;
+			children = (
+				8693895D1718A0B800B4EA7B /* main.m */,
+				8693898E1718A2A800B4EA7B /* PebbleNotifier.pch */,
+				8693898D1718A22A00B4EA7B /* TSAppDelegate.h */,
+			);
+			name = "pebble-notifier";
+			path = src;
+			sourceTree = "<group>";
+		};
+		869389661718A16900B4EA7B /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				8693897B1718A1A800B4EA7B /* FMDB */,
+				869389671718A17400B4EA7B /* ncMeta */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		869389671718A17400B4EA7B /* ncMeta */ = {
+			isa = PBXGroup;
+			children = (
+				869389681718A19C00B4EA7B /* TSAppRecord.h */,
+				869389691718A19C00B4EA7B /* TSAppRecord.m */,
+				8693896A1718A19C00B4EA7B /* TSDBConnector.h */,
+				8693896B1718A19C00B4EA7B /* TSDBConnector.m */,
+				8693896C1718A19C00B4EA7B /* TSDBConnectorDelegate.h */,
+				8693896D1718A19C00B4EA7B /* TSDBMonitorController.h */,
+				8693896E1718A19C00B4EA7B /* TSDBMonitorController.m */,
+				8693896F1718A19C00B4EA7B /* TSDBMonitorDelegate.h */,
+				869389701718A19C00B4EA7B /* TSNCMetaController.h */,
+				869389711718A19C00B4EA7B /* TSNCMetaController.m */,
+				869389721718A19C00B4EA7B /* TSNCMetaControllerDelegate.h */,
+				869389731718A19C00B4EA7B /* TSWindowMonitorController.h */,
+				869389741718A19C00B4EA7B /* TSWindowMonitorController.m */,
+				869389751718A19C00B4EA7B /* TSWindowMonitorControllerDelegate.h */,
+			);
+			name = ncMeta;
+			sourceTree = "<group>";
+		};
+		8693897B1718A1A800B4EA7B /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8693897C1718A1BA00B4EA7B /* FMDatabase.h */,
+				8693897D1718A1BA00B4EA7B /* FMDatabase.m */,
+				8693897E1718A1BA00B4EA7B /* FMDatabaseAdditions.h */,
+				8693897F1718A1BA00B4EA7B /* FMDatabaseAdditions.m */,
+				869389801718A1BA00B4EA7B /* FMDatabasePool.h */,
+				869389811718A1BA00B4EA7B /* FMDatabasePool.m */,
+				869389821718A1BA00B4EA7B /* FMDatabaseQueue.h */,
+				869389831718A1BA00B4EA7B /* FMDatabaseQueue.m */,
+				869389841718A1BA00B4EA7B /* FMResultSet.h */,
+				869389851718A1BA00B4EA7B /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869389561718A0B800B4EA7B /* pebble-notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869389631718A0B800B4EA7B /* Build configuration list for PBXNativeTarget "pebble-notifier" */;
+			buildPhases = (
+				869389531718A0B800B4EA7B /* Sources */,
+				869389541718A0B800B4EA7B /* Frameworks */,
+				869389551718A0B800B4EA7B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pebble-notifier";
+			productName = "pebble-notifier";
+			productReference = 869389571718A0B800B4EA7B /* pebble-notifier */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8693894F1718A0B800B4EA7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Boris Bügling";
+			};
+			buildConfigurationList = 869389521718A0B800B4EA7B /* Build configuration list for PBXProject "pebble-notifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8693894E1718A0B800B4EA7B;
+			productRefGroup = 869389581718A0B800B4EA7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869389561718A0B800B4EA7B /* pebble-notifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869389531718A0B800B4EA7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8693895E1718A0B800B4EA7B /* main.m in Sources */,
+				869389761718A19C00B4EA7B /* TSAppRecord.m in Sources */,
+				869389771718A19C00B4EA7B /* TSDBConnector.m in Sources */,
+				869389781718A19C00B4EA7B /* TSDBMonitorController.m in Sources */,
+				869389791718A19C00B4EA7B /* TSNCMetaController.m in Sources */,
+				8693897A1718A19C00B4EA7B /* TSWindowMonitorController.m in Sources */,
+				869389861718A1BA00B4EA7B /* FMDatabase.m in Sources */,
+				869389871718A1BA00B4EA7B /* FMDatabaseAdditions.m in Sources */,
+				869389881718A1BA00B4EA7B /* FMDatabasePool.m in Sources */,
+				869389891718A1BA00B4EA7B /* FMDatabaseQueue.m in Sources */,
+				8693898A1718A1BA00B4EA7B /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		869389611718A0B800B4EA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/PebbleNotifier.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		869389621718A0B800B4EA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/PebbleNotifier.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		869389641718A0B800B4EA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		869389651718A0B800B4EA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869389521718A0B800B4EA7B /* Build configuration list for PBXProject "pebble-notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869389611718A0B800B4EA7B /* Debug */,
+				869389621718A0B800B4EA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869389631718A0B800B4EA7B /* Build configuration list for PBXNativeTarget "pebble-notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869389641718A0B800B4EA7B /* Debug */,
+				869389651718A0B800B4EA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8693894F1718A0B800B4EA7B /* Project object */;
+}
