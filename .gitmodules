@@ -1,0 +1,3 @@
+[submodule "vendor/ncMeta"]
+	path = vendor/ncMeta
+	url = https://github.com/timschroedernet/ncMeta.git
